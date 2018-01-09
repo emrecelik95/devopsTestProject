@@ -2,9 +2,9 @@ version: 0.0
 os: linux
 files:
    - source: /
-     destination: /home/ec2-user/apps/test100
+     destination: /home/ip-172-31-47-108/apps/test100
 permissions:
-   - object: /home/ec2-user/apps/test100
+   - object: /home/ip-172-31-47-108/apps/test100
      pattern: "**"
      owner: apache
      group: apache
