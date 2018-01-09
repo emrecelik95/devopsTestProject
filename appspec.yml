@@ -6,8 +6,6 @@ files:
 permissions:
    - object: /home/ubuntu/apps/test100
      pattern: "**"
-     owner: apache
-     group: apache
      mode: 755
      type:
        - file
